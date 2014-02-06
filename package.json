@@ -24,8 +24,14 @@
   },
 
   "dependencies": {
-    "hubot":         ">= 2.6.0 < 3.0.0",
-    "hubot-scripts": ">= 2.5.0 < 3.0.0"
+    "hubot":          ">= 2.6.0 < 3.0.0",
+    "hubot-scripts":  ">= 2.5.0 < 3.0.0",
+    "htmlparser":     "~1.7",
+    "hubot-dogeme":   "~1.0",
+    "rsvp":           "~1.2",
+    "sandbox":        "~0.8",
+    "soupselect":     "~0.2",
+    "underscore":     "~1.5"
   },
 
   "engines": {
