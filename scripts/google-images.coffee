@@ -9,15 +9,19 @@
 
 module.exports = (robot) ->
   robot.respond /(image|img)( me)? (.*)/i, (msg) ->
+    if msg.message.user.name == "Jude"
+      return msg.send "Sorry, Jude, I can't let you do that"
     imageMe msg, msg.match[3], (url) ->
       msg.send url
 
   robot.respond /animate( me)? (.*)/i, (msg) ->
+    if msg.message.user.name == "Jude"
+      return msg.send "Sorry, Jude, I can't let you do that"
     imageMe msg, msg.match[2], true, (url) ->
       msg.send url
 
   robot.respond /(?:mo?u)?sta(?:s|c)he?(?: me)? (.*)/i, (msg) ->
-    type = Math.floor(Math.random() * 6)
+    type = Math.floor(Math.random() * 3)
     mustachify = "http://mustachify.me/#{type}?src="
     imagery = msg.match[1]
 
