@@ -31,7 +31,8 @@
     "rsvp":           "~1.2",
     "sandbox":        "~0.8",
     "soupselect":     "~0.2",
-    "underscore":     "~1.5"
+    "underscore":     "~1.5",
+    "cheerio":        "~0.12.0"
   },
 
   "engines": {
