@@ -29,7 +29,6 @@ module.exports = (robot) ->
 
     dislike: [
       "Whatever %",
-      "Sod off %",
       "*yawn*",
       "*shrugs*",
       "Yeah, %, morning... uhuh"
@@ -37,7 +36,6 @@ module.exports = (robot) ->
 
     hate: [
       "I'm not your friend, %, – this is a business relationship",
-      "Piss off %",
       "Don't talk to me please, %",
       "%, just leave me alone!",
       "I do hope % has a wonderful day... </sarcasm>"
@@ -45,8 +43,7 @@ module.exports = (robot) ->
 
   }
 
-  morning = new RegExp("mornin.+#{robot.name}", "i")
-  morningCommand = new RegExp(".*mornin.*", "i");
+  morning = new RegExp(".*mornin.*", "i")
 
   action = (msg) ->
     rating.increase msg, 1
@@ -55,4 +52,3 @@ module.exports = (robot) ->
     msg.send response.replace('%', msg.message.user.name)
 
   robot.hear morning, action
-  robot.respond morningCommand, action
