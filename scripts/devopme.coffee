@@ -2,7 +2,7 @@
 #   Delivers a recent devop reaction from devopsreactions.tumblr.com. Uses an API key but does not require full authentication. If you've requested 20 devops reactions then it goes back to the most recent one again.
 #
 # Commands:
-#   fedbot devop me - get a devop reaction
+#   Hubot devop me - get a devop reaction
 #
 # Author:
 #   hollsk
