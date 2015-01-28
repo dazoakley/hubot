@@ -13,22 +13,44 @@ module.exports = (robot) ->
     pr = msg.match[1]
     emoji1 = randomEmoji()
     emoji2 = randomEmoji()
-    output = "#{emoji1} #{emoji2} BUMP #{pr} BUMP #{emoji2} #{emoji1}"
+    output = "#{emoji2} #{emoji1} BUMP #{pr} BUMP #{emoji2} #{emoji1}"
     emojiLine = ''
     for num in [0..9]
       emojiLine += "#{emoji1} #{emoji2} "
     msg.send emojiLine, output, emojiLine
 
   emoji = [
-    'star'
+    '+1'
+    'balloon'
+    'beer'
+    'blue_heart'
+    'bomb'
     'boom'
-    'exclamation'
+    'bulb'
+    'cake'
+    'cherry_blossom'
     'collision'
-    'star2'
+    'cyclone'
+    'exclamation'
+    'fire'
+    'four_leaf_clover'
+    'gem'
+    'gift'
+    'kiss'
+    'love_letter'
+    'octocat'
+    'ok_hand'
+    'poop'
+    'skull'
     'sparkles'
     'sparkling_heart'
-    'fire'
+    'star'
+    'star2'
+    'sunny'
+    'trophy'
+    'warning'
     'yellow_heart'
+    'zap'
   ]
 
   randomEmoji = ->
