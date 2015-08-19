@@ -26,6 +26,7 @@
     "hubot-dogeme": "~1.0",
     "hubot-scripts": ">= 2.5.0 < 3.0.0",
     "hubot-slack": "^3.3.0",
+    "request": "^2.60.0",
     "rsvp": "~1.2",
     "sandbox": "~0.8",
     "soupselect": "~0.2",
