@@ -1,17 +1,8 @@
 [
-  "ackbar.coffee",
-  "advice.coffee",
   "animal.coffee",
-  "applause.coffee",
   "ascii.coffee",
-  "chat.coffee",
-  "chuck-norris.coffee",
-  "cowsay.coffee",
   "devexcuse.coffee",
-  "fml.coffee",
   "futurama.coffee",
   "gorbypuff.coffee",
-  "grumpycat.coffee",
-  "javascript-sandbox.coffee",
-  "jenkins.coffee"
+  "grumpycat.coffee"
 ]

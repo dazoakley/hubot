@@ -23,8 +23,7 @@
     "request": "^2",
     "rsvp": "~1.2",
     "sandbox": "~0.8",
-    "soupselect": "~0.2",
-    "underscore": "~1.8"
+    "soupselect": "~0.2"
   },
   "engines": {
     "node": "0.10.x"
