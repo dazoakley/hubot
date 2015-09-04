@@ -1,11 +1,12 @@
-# Hubot
+
+# DSSS Hubot
 
 This is the hubot for Macmillan Digital Systems, Science and Scholarly
 
-# Adding stuff
+## Adding stuff
 
 Submit a PR. :)
 
-# Deployment
+## Deployment
 
 It's deployed on Heroku.  Once your PR is merged, it'll automagically get deployed shortly after.
