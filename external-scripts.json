@@ -4,5 +4,6 @@
   "hubot-help",
   "hubot-heroku-keepalive",
   "hubot-pugme",
-  "hubot-redis-brain"
+  "hubot-redis-brain",
+  "hubot-shipit"
 ]

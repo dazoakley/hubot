@@ -18,6 +18,7 @@
     "hubot-pugme": "~0.1",
     "hubot-redis-brain": "0.0.3",
     "hubot-scripts": "^2",
+    "hubot-shipit": "~0.2",
     "hubot-slack": "^3",
     "request": "^2",
     "rsvp": "~1.2",
