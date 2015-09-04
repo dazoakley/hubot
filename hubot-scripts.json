@@ -13,7 +13,5 @@
   "gorbypuff.coffee",
   "grumpycat.coffee",
   "javascript-sandbox.coffee",
-  "jenkins.coffee",
-  "shipit.coffee",
-  "redis-brain.coffee"
+  "jenkins.coffee"
 ]

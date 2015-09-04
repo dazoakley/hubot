@@ -1,3 +1,9 @@
 [
-  "hubot-dogeme"
+  "hubot-dogeme",
+  "hubot-google-images",
+  "hubot-help",
+  "hubot-heroku-keepalive",
+  "hubot-pugme",
+  "hubot-redis-brain",
+  "hubot-shipit"
 ]

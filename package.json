@@ -1,39 +1,32 @@
 {
-  "name": "hosted-hubot",
-  "version": "2.7.1",
-  "author": "GitHub Inc.",
-  "keywords": [
-    "github",
-    "hubot",
-    "campfire",
-    "bot"
-  ],
-  "description": "A simple helpful robot for your Company",
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/github/hubot/raw/master/LICENSE"
-    }
-  ],
+  "name": "DSSS-Hubot",
+  "version": "1.0.0",
+  "description": "The Hubot for Macmillan Digital Systems, Science and Scholarly",
+  "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/github/hubot.git"
+    "url": "https://github.com/dazoakley/hubot.git"
   },
   "dependencies": {
-    "cheerio": "~0.12.0",
+    "cheerio": "~0.19",
     "htmlparser": "~1.7",
-    "hubot": ">= 2.6.0 < 3.0.0",
+    "hubot": "^2",
     "hubot-dogeme": "~1.0",
-    "hubot-scripts": ">= 2.5.0 < 3.0.0",
-    "hubot-slack": "^3.3.0",
-    "request": "^2.60.0",
+    "hubot-google-images": "~0.2",
+    "hubot-help": "~0.1",
+    "hubot-heroku-keepalive": "~1.0",
+    "hubot-pugme": "~0.1",
+    "hubot-redis-brain": "0.0.3",
+    "hubot-scripts": "^2",
+    "hubot-shipit": "~0.2",
+    "hubot-slack": "^3",
+    "request": "^2",
     "rsvp": "~1.2",
     "sandbox": "~0.8",
     "soupselect": "~0.2",
-    "underscore": "~1.5"
+    "underscore": "~1.8"
   },
   "engines": {
-    "node": ">= 0.8.x",
-    "npm": ">= 1.1.x"
+    "node": "0.10.x"
   }
 }
