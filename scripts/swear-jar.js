@@ -22,6 +22,7 @@ var swears = new RegExp('\\b(' + [
 	'cunt(ed|ing|s)?',
 	'assholes?',
 	'arseholes?',
+	'springer',
 	'wankers?',
 	'twats?',
 	'bollo(ck|x)(ing|ed|s)?',
