@@ -25,6 +25,7 @@ var swears = new RegExp('\\b(' + [
 	'springer',
 	'java',
 	'scala',
+	'os(c|k)ars?',
 	'wankers?',
 	'twats?',
 	'bollo(ck|x)(ing|ed|s)?',
